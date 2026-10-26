@@ -34,8 +34,11 @@ Your solution must:
 Run the starter Python entry point with:
 
 ```bash
-python3 code/main.py
+py -3.13 -m pip install -r code/requirements.txt
+py -3.13 code/main.py
 ```
+
+On systems where `python3` is the configured Python 3 interpreter, `python3 code/main.py` is also supported. PDF evidence extraction uses `pypdf`; image-derived observations are loaded from the reviewed `code/media_evidence.json` evidence cache.
 
 The blank template at `dataset/output.csv` is provided as a reference. Your final generated file for submission must be the root-level `output.csv`.
 

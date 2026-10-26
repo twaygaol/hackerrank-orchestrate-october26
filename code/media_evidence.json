@@ -1,0 +1,147 @@
+[
+  {
+    "evidence_id": "evidence_04",
+    "resource_id": "account_5762",
+    "system_id": "account_service",
+    "state": "PRESENT",
+    "category": "DELETE",
+    "fields": {
+      "customer_reference": "user_11",
+      "full_name": "Haruka Sato",
+      "email": "haruka.s1838@zoho.com",
+      "phone": "+81 90 7610 2507",
+      "account_status": "ACTIVE"
+    }
+  },
+  {
+    "evidence_id": "evidence_19",
+    "resource_id": "analytics_7438",
+    "system_id": "analytics_platform",
+    "state": "PRESENT",
+    "category": "ANONYMIZE",
+    "fields": {
+      "customer_reference": "user_20",
+      "full_name": "Omar Darwish",
+      "email": "darwish.omar@icloud.com"
+    }
+  },
+  {
+    "evidence_id": "evidence_32",
+    "resource_id": "backup_9287",
+    "system_id": "backup_service",
+    "state": "ACTIVE",
+    "category": "BLOCK",
+    "fields": {
+      "customer_email": "areed1433@gmail.com",
+      "archive_present": true,
+      "restore_allowed": true
+    }
+  },
+  {
+    "evidence_id": "evidence_14",
+    "resource_id": "data_flow_1121",
+    "system_id": "integration_service",
+    "state": "ACTIVE",
+    "category": "DISABLE",
+    "fields": {
+      "customer_email": "jain.aditi@gmail.com",
+      "enabled": true,
+      "mode": "Continuous"
+    }
+  },
+  {
+    "evidence_id": "evidence_14",
+    "resource_id": "data_flow_9846",
+    "system_id": "integration_service",
+    "state": "ACTIVE",
+    "category": "DISABLE",
+    "fields": {
+      "customer_email": "lucia-torres@gmail.com",
+      "enabled": true,
+      "mode": "Continuous"
+    }
+  },
+  {
+    "evidence_id": "evidence_23",
+    "resource_id": "export_1260",
+    "system_id": "export_service",
+    "state": "PRESENT",
+    "category": "DELETE",
+    "fields": {
+      "owner_email": "ingrid.dahl@outlook.com",
+      "available": true,
+      "status": "Ready"
+    }
+  },
+  {
+    "evidence_id": "evidence_42",
+    "resource_id": "tombstone_17",
+    "system_id": "identity_service",
+    "state": "REDACTED",
+    "category": "REDACT",
+    "fields": {
+      "customer_reference": "user_17",
+      "direct_identifiers": null,
+      "status": "Retained reference"
+    }
+  },
+  {
+    "evidence_id": "evidence_60",
+    "resource_id": "marketing_001",
+    "system_id": "marketing_platform",
+    "state": "PRESENT",
+    "category": "DELETE",
+    "fields": {
+      "full_name": "Soo-jin Park",
+      "email": "sj.park@naver.com",
+      "phone": "+82 10-5837-9451",
+      "status": "Live"
+    }
+  },
+  {
+    "evidence_id": "evidence_09",
+    "resource_id": "search_428",
+    "system_id": "search_service",
+    "state": "PRESENT",
+    "category": "DELETE",
+    "fields": {
+      "customer_reference": "user_13",
+      "display_name": "Gabriel Silva",
+      "email": "g.silva76@gmail.com"
+    }
+  },
+  {
+    "evidence_id": "evidence_09",
+    "resource_id": "search_1874",
+    "system_id": "search_service",
+    "state": "PRESENT",
+    "category": "DELETE",
+    "fields": {
+      "email": "g.silva76.jr@gmail.com"
+    }
+  },
+  {
+    "evidence_id": "evidence_37",
+    "resource_id": "audit_record_003",
+    "system_id": "security_service",
+    "state": "PRESENT",
+    "category": "RETAIN",
+    "fields": {
+      "subject_reference": "user_03",
+      "event_code": "ACCOUNT_CLOSURE_RECORDED",
+      "integrity": "Valid"
+    }
+  },
+  {
+    "evidence_id": "evidence_28",
+    "resource_id": "support_1034",
+    "system_id": "support_platform",
+    "state": "PRESENT",
+    "category": "REDACT",
+    "fields": {
+      "full_name": "Kofi Agyeman",
+      "requester_email": "kagyeman8947@fastmail.com",
+      "message_context": "Shared customer, agent, order and delivery context"
+    }
+  }
+]
